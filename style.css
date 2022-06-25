@@ -1,0 +1,74 @@
+/*Reset*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Default*/
+html{
+  --cor1: #763351;
+  --cor2: #8477CC;
+  --cor3: #F59F9F;
+  --cor4: #5A9E91;
+  --cor5: #D09AB5;
+
+  font-size: 62.5%;
+}
+
+/*Full Page (Background)*/
+.container{
+  width: 100vw;
+  height: 100vh;
+
+  display: grid;
+  place-items: center;
+  
+  background-color: white;
+}
+
+/*Principal Box*/
+.wrapper{
+  width: 100rem;
+  height: 70rem;
+
+  background-color: var(--cor4);
+
+  border-radius: 5rem;
+
+  box-shadow: 2rem 2rem 6rem #888;
+  
+  position: relative;
+}
+
+.wrapper div{
+  position: absolute;
+}
+
+.rubber{
+  width: 67rem;
+  height: 50rem;
+  background-color: ;
+}
+
+/*barras*/
+.stick{
+  width: 3rem;
+  height: 40rem;
+
+  background-color: var(--cor3);
+
+  border-radius: 1rem 1rem 0 0;
+
+  bottom: 0;
+}
+
+.left-stick{
+  left: 15rem;
+  box-shadow: .2rem 0 .5rem #555;
+}
+
+.right-stick{
+  right: 15rem;
+  box-shadow: -.2rem 0 .5rem #555;
+}
