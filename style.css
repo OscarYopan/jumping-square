@@ -30,7 +30,7 @@ html{
 /*Principal Box*/
 .wrapper{
   width: 100rem;
-  height: 70rem;
+  height: 60rem;
 
   background-color: var(--cor4);
 
@@ -166,16 +166,16 @@ html{
   }
 
   20%{
-    transform: translateY(32rem);
+    transform: translateY(22rem);
   }
 
   50%,
   60%{
-    transform: translateY(54rem);
+    transform: translateY(44rem);
   }
   
   62%{
-    transform: translateY(40rem);
+    transform: translateY(30rem);
   }
 
   80%{
